@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__link">
+                    <a href="#about" class="header__nav-link">Обо мне</a>
+                    <a href="#portfolio" class="header__nav-link">Портфолио</a>
+                    <a href="#details" class="header__nav-link">Этапы работ</a>
+                    <a href="#price" class="header__nav-link">Цены</a>
+                    <a href="#feed-back" class="header__nav-link">Обратная связь</a>
+                </div>
+                <div class="header__contact-link">
+                    <a href="#" class="header__phone">8 923 777-77-77</a>
+                    <span class="header__separator"></span>
+                    <a href="#" class="header__amail">alexdev@gmail.com</a>    
+                </div>
+                <button class="header__burger-menu"onclick="openModal()"></button>
+            </div>
+        </div>
+    </header>
+    <main class="hero">
+        <div class="container">
+            <div class="hero__img-bnr">
+                <img src="./images/banner.png" alt="" class="hero__banner">
+            </div>
+            <h2 class="hero__name">Александр Антропов</h2>
+            <h1 class="hero__info">web-разработчик</h1>
+            <div class="hero__social-info">
+                <div class="hero__additionall">
+                    <a href="#"class="hero__discussion">Обсудить проект</a>
+                    <img class="herro__arrow" src="./images/objects/arrow.svg" alt="">
+                </div>
+                <div class="hero__social">
+                    <a href="#" class="hero__social-link">Vk</a>
+                    <a href="#" class="hero__social-link">Youtube <span class="hero__ellipse"></span></a>
+                    <a href="#" class="hero__social-link">Linkedin</a>
+                </div>
+            </div>
+            <div class="hero__web">
+                <div class="hero__web-info">
+                    <p class="hero__description">FRONT-END</p>
+                    <p class="hero__text">HTML+CSS+JS кодирование дизайнов любой сложности</p>
+                </div>
+                <div class="hero__web-info">
+                    <p class="hero__description">Back-end</p>
+                    <p class="hero__text">Разработка сложной back-end логики для готового front-end</p>
+                </div>
+                <div class="hero__web-info">
+                    <p class="hero__description">WORDPRESS</p>
+                    <p class="hero__text">Разработка сайтов - от блога до интернет магазина</p>
+                </div>
+                <div class="hero__web-info">
+                    <p class="hero__description">SEO продвижение</p>
+                    <p class="hero__text">Качественное улучшение позиций сайта в поисковой выдаче</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <article>
+        <article class="container" id="about">
+            <div class="article__about-info">
+                <h2 class="article__about">Обо&nbsp;мне</h2>
+                <p class="article__about-text">Создаю только эффективные решения, которые работают на результат: от одностраничных сайтов, до крупных интернет-порталов.</p>
+            </div>
+        </article>
+        <div class="container">
+            <div class="article__wrap">
+                <div class="article__grid-info">
+                    <div class="article__quality-info">
+                        <h2 class="article__skills">Контроль</h2>
+                        <p class="article__skills-info">Предоставление результатов на каждом этапе работы с возможностью внести правки</p>
+                    </div>
+                    <div class="article__quality-info">
+                        <h2 class="article__skills">Ответственность</h2>
+                        <p class="article__skills-info">Фриланс как основная деятельность, что означает полную отдачу в процессе работы над заказом</p>
+                    </div>
+                    <div class="article__quality-info">
+                        <h2 class="article__skills">Исполнительность</h2>
+                        <p class="article__skills-info">Внимательность ко всем требованиям заказчика и прояснение любых моментов</p>
+                    </div>
+                    <div class="article__quality-info">
+                        <h2 class="article__skills">Качество</h2>
+                        <p class="article__skills-info">Высокое качество как графических материалов, так и внутренних алгоритмов работы сайта</p>
+                    </div>
+                </div>
+            </div>
+            <div class="article__grid-details" id="details">
+                <div class="article__grid-vertical">
+                    <div class="article__number-stage">
+                        <p class="article__number">01</p>
+                        <h2 class="article__stage">Вы заказываете сайт</h2>
+                    </div>
+                    <div class="article__stage-block">
+                        <p class="article__stage-text">Связываетесь со мной по телефону или через заявку на сайте</p>
+                    </div>
+                </div>
+                <div class="article__grid-vertical">
+                    <div class="article__number-stage">
+                        <p class="article__number">02</p>
+                        <h2 class="article__stage">Обговариваем детали</h2>
+                    </div>
+                    <div class="article__stage-block">
+                        <p class="article__stage-text">Созваниваемся или списываемся любым удобным для вас способом</p>
+                    </div>
+                </div>
+                <div class="article__grid-vertical">
+                    <div class="article__number-stage">
+                        <p class="article__number">03</p>
+                        <h2 class="article__stage">Этап программирования</h2>
+                    </div>
+                    <div class="article__stage-block">
+                        <p class="article__stage-text">Верстаю сайт по вашему проекту пиксель в пиксель</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section id="portfolio">
+        <div class="container">
+            <div class="section__section-portfolio">
+                <h1 class="section__portfolio-txt">Портфолио <span class="section__red-circle"></span></h1>
+            </div>
+        </div>
+        <div class="section__gradient"></div>
+        <div class="container">
+            <div class="section__portfolio-link">
+                <div class="section__portfolio-link-txt">
+                    <h2 class="section__name-project">Agata Bielen</h2>
+                    <ul class="section__description-project">
+                        <li>верстка по макету из Figma</li>
+                        <li>наполнение сайта контентом</li>
+                        <li>внедрена функция добавления видео</li>
+                    </ul>
+                    <p class="section__hours">Затрачено времени: 5 рабочих дней</p>
+                </div>
+                <div class="section__bnr-img-cont">
+                    <a href="" class="bnr-img-link">
+                        <img src="./images/portfolio/img1.png" class="section__bnr-img" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="section__portfolio-link">
+                <div class="section__portfolio-link-txt">
+                    <h2 class="section__name-project">Lemons</h2>
+                    <ul class="section__description-project">
+                        <li>верстка по макету из PSD</li>
+                        <li>доступен функционал получения заказов</li>
+                        <li>реализована кнопка «Заказать в 1 клик»</li>
+                    </ul>
+                    <p class="section__hours">Затрачено времени: 5 рабочих дней</p>
+                </div>
+                <a href="" class="bnr-img-link">
+                    <img src="./images/portfolio/img2.png" class="section__bnr-img" alt="">
+                </a>
+            </div>
+            <p class="section__myself-txt">Помимо создания сайтов и посадочных страниц я занимаюсь: настройкой контекстной рекламы в системах Яндекс.Директи Google AdWords, а так же поисковым продвижением сайтов</p>
+            <div class="section__grid-container">
+                <div class="section__grid-box">
+                    <img src="./images/icons/money.svg" alt="">
+                    <div class="section__grid-discription">
+                        <h1 class="section__grid-txt">Актуальные цены</h1>
+                        <p class="section__grid-txt-discription">Ничего лишнего, без переплат,
+                        100% отработка ваших денег</p>
+                    </div>
+                </div>
+                <div class="section__grid-box">
+                    <img src="./images/icons/image.svg" alt="">
+                    <div class="section__grid-discription">
+                        <h1 class="section__grid-txt">Более 2-х лет опыта</h1>
+                        <p class="section__grid-txt-discription">Это моя основная деятельность,
+                            создано более 150+ сайтов</p>
+                    </div>
+                </div>
+                <div class="section__grid-box">
+                    <img src="./images/icons/clock.svg" alt="">
+                    <div class="section__grid-discription">
+                        <h1 class="section__grid-txt">Оптимальные сроки</h1>
+                        <p class="section__grid-txt-discription">Создание сайта любой сложности 
+                            в самые сжатые сроки</p>
+                    </div>
+                </div>
+                <div class="section__grid-box">
+                    <img src="./images/icons/phone.svg" alt="">
+                    <div class="section__grid-discription">
+                        <h1 class="section__grid-txt">Всегда на связи</h1>
+                        <p class="section__grid-txt-discription">Не теряюсь и не проматываю 
+                            сроки. Подхожу ответственно</p>
+                    </div>
+                </div>
+                <div class="section__grid-box">
+                    <img src="./images/icons/code-json.svg" alt="">
+                    <div class="section__grid-discription">
+                        <h1 class="section__grid-txt">Чистый код</h1>
+                        <p class="section__grid-txt-discription">HTML код без всего лишнего, плюс   адаптив под все устройства</p>
+                    </div>
+                </div>
+                <div class="section__grid-box">
+                    <img src="./images/icons/file.svg" alt="">
+                    <div class="section__grid-discription">
+                        <h1 class="section__grid-txt">Поддержка сайта</h1>
+                        <p class="section__grid-txt-discription">Быстро устраню любую проблему на вашем сайте</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section__web-grid">
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/html.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">HTML</p><p class="section__web-tooltip-txt-plus">Это код, который используется для структурирования и отображения веб-страницы и её контента.</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/css.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">CSS</p><p class="section__web-tooltip-txt-plus">Это язык описания внешнего вида документа, то есть он отвечает за то, как выглядят веб-страницы.</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/js.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">JavaScript ES6+</p><p class="section__web-tooltip-txt-plus">Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам.</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/jquery.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">jQuery</p><p class="section__web-tooltip-txt-plus">Это инструмент, позволяющий ссылаться на текущий элемент или элементы в выбранном наборе.</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/bootstrap.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">
+                            Bootstrap</p><p class="section__web-tooltip-txt-plus">Это бесплатный фреймворк для более быстрой и простой веб-разработки</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/php.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">PHP</p><p class="section__web-tooltip-txt-plus">Это язык программирования, специально разработанный для написания web-приложений</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/Vue.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">VUE</p><p class="section__web-tooltip-txt-plus">Это фреймворк и экосистема, охватывающая большинство функций, необходимых при разработке.</p></span></a>
+                    </div>
+                </div>
+                <div class="section__web-box">
+                    <div class="section__web-grid-cntrl">
+                        <a href="#" class="section__web-logo-container"><img src="./images/logo/wordpress.svg" alt="" class="section__web-logo">
+                        <span class="section__tooltip"><p class="section__web-tooltip-txt">WordPress</p><p class="section__web-tooltip-txt-plus">Это веб-движок для создания, администрирования сайтов и управления контентом.</p></span></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section__container-tariff-info">
+                <h2 class="section__tarrif">Тарифы<span class="section__tarrif-alepce"></span></h2>
+                <p class="section__tariff-info">Представленные ниже цены зависят<br> не только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ</p>
+            </div>
+            <div class="section__development-container" id="price">
+                <div class="section__development-arrow-txt-info">
+                    <h2 class="section__development-txt">Разработка<br>лэндинга или сайт визитки</h2>
+                    <p class="section__development-paragraph">Небольшой сайт состоящий из одной страницы</p>
+                    <div class="section__development-arrow">
+                        <a href="#"class="section__development-discussion">Обсудить проект</a>
+                        <img class="section__development-arrow" src="./images/objects/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="section__development-included">
+                    <p class="section__development-txt-inc">Что входит</p>
+                    <ul class="section__development-info">
+                        <li>Сайт на CMS WordPress</li>
+                        <li>Одна посадочная страница</li>
+                        <li>От 7 дней</li>
+                    </ul>
+                    <h2 class="section__seven">От 7 000 Р<span class="section__elipse-seven"></span></h2>
+                </div>
+            </div>
+            <div class="section__development-container">
+                <div class="section__development-arrow-txt-info">
+                    <h2 class="section__development-txt">Разработка<br>корпоративного  сайта</h2>
+                    <p class="section__development-paragraph">Небольшой сайт с n-количеством страниц</p>
+                    <div class="section__development-arrow">
+                        <a href="#"class="section__development-discussion">Обсудить проект</a>
+                        <img class="section__development-arrow" src="./images/objects/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="section__development-included">
+                    <p class="section__development-txt-inc">Что входит</p>
+                    <ul class="section__development-info">
+                        <li>Сайт на CMS WordPress</li>
+                        <li>От 2-10 страниц</li>
+                        <li>От 15 дней</li>
+                    </ul>
+                    <h2 class="section__seven">От 10 000 Р</h2>
+                </div>
+            </div>
+            <div class="section__development-container">
+                <div class="section__development-arrow-txt-info">
+                    <h2 class="section__development-txt">Разработка<br>интернет - магазина</h2>
+                    <p class="section__development-paragraph">Полноценный каталог вашей продукции</p>
+                    <div class="section__development-arrow">
+                        <a href="#"class="section__development-discussion">Обсудить проект</a>
+                        <img class="section__development-arrow" src="./images/objects/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="section__development-included">
+                    <p class="section__development-txt-inc">Что входит</p>
+                    <ul class="section__development-info">
+                        <li>Сайт на CMS WordPress</li>
+                        <li>От 2-10 страниц, корзина, карточка товара</li>
+                        <li>От 20 дней</li>
+                    </ul>
+                    <h2 class="section__seven">От 15 000 Р<span class="section__elipse-seven"></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="section__line"></div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section__grid-my-project" id="feed-back">
+                <h2 class="section__my-project">Расскажите <br>о своем проекте<span class="section__circle-tringle"></span></h2>
+                <p class="section__my-project-txt">Воспользуйтесь формой обратной связи, чтобы обсудить ваш проект, заполните все поля, и я свяжусь с вами в ближайшее время</p>
+                <div class="section__social-section">
+                    <a href="#" class="section__social-link">Vk</a>
+                    <a href="#" class="section__social-link">Youtube</a>
+                    <a href="#" class="section__social-link">Linkedin</a>
+                </div>
+                <div class="section__input-phone">
+                    <p class="section__phone-mail">Телефон или почта</p>
+                    <input class="section__input-type"class type="text" id="contact1" placeholder="Введите телефон">
+                    <p class="section__connection">Выберите удобный способ связи</p>
+                    <div class="section__dropdown-container">
+                        <input type="checkbox" id="drop" />
+                        <label for="drop">Способ связи</label>
+                        <div class="section__content">
+                          <a href="#" class="section__dropdown-txt">Telegram</a>
+                          <a href="#" class="section__dropdown-txt">WhatsApp                        </a>
+                          <a href="#" class="section__dropdown-txt">Viber</a>
+                          <a href="#" class="section__dropdown-txt">Звонок на телефон</a>
+                          <a href="#" class="section__dropdown-txt">SMS сообщение</a>     
+                        </div>
+                      </div>
+                      <button class="section__button">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section class="footer">
+            <div class="footer__footer-info-block">
+                <div class="footer__footer-info">
+                    <a href="#about" class="footer__footer-link">Обо мне</a>
+                    <a href="#portfolio" class="footer__footer-link">Портфолио</a>
+                    <a href="#details" class="footer__footer-link">Этапы работ</a>
+                    <a href="#price" class="footer__footer-link">Цены</a>
+                    <a href="#feed-back" class="footer__footer-link">Обратная связь</a>
+                </div>
+                <div class="footer__footer-contact">
+                    <a href="#" class="footer__phone-link">8 923 777-77-77</a>
+                    <span class="footer__footer-seporator"></span>
+                    <a href="#" class="footer__footer-mail">alexdev@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer__info-and">
+                <p class="footer__reserved">© 2020, Все права защищены</p>
+                <p class="footer__">Сделано в рамках курса учебной платформы <a href="#" class="AB">Annblok</a></p>
+            </div>
+        </section>
+    </div>
+    <div class="header__modal" id="modal">
+        <div class="header__link-modal">
+            <a href="#about" class="header__nav-link-modal">Обо мне</a>
+            <a href="#portfolio" class="header__nav-link-modal">Портфолио</a>
+            <a href="#details" class="header__nav-link-modal">Этапы работ</a>
+            <a href="#price" class="header__nav-link-modal">Цены</a>
+            <a href="#feed-back" class="header__nav-link-modal">Обратная связь</a>
+        </div>
+        <div class="footer__modal-link">
+            <div class="footer__footer-modal-info">
+                <div class="footer__modal-contact">
+                    <a href="#" class="footer__modal-phone-link">8 923 777-77-77</a>
+                    <span class="footer__footer-modal-seporator"></span>
+                    <a href="#" class="footer__footer-modal-mail">alexdev@gmail.com</a>
+                </div>
+                <div class="footer__modal-social-section">
+                    <a href="#" class="footer__modal-social-link">Vk</a>
+                    <a href="#" class="footer__modal-social-link">Youtube</a>
+                    <a href="#" class="footer__modal-social-link">Linkedin</a>
+                </div>
+            </div>
+        </div>
+        <button class="header__modal-close" onclick="closeModal()"></button>
+        <div class="footer__background"></div>
+        <div class="container"></div>
+    </div>
+</body>
+</html>

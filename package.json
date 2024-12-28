@@ -5,15 +5,15 @@
     "dev": "webpack serve --env develop"
   },
   "devDependencies": {
-    "css-loader": "^6.5.1",
+    "css-loader": "^6.11.0",
     "html-loader": "^3.1.2",
-    "mini-css-extract-plugin": "^2.5.2",
-    "sass": "^1.49.0",
-    "sass-loader": "^12.4.0",
-    "style-loader": "^3.3.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.83.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.4",
     "webpack": "^5.97.1",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.7.3"
+    "webpack-dev-server": "^4.15.2"
   },
   "dependencies": {
     "html-webpack-plugin": "^5.6.3",
