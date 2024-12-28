@@ -1246,9 +1246,13 @@ ul li::before {
          }
     }
     &__input-phone {
+        max-width: 560px;
         @media (max-width: 610px) {
             width: 100%;
          }
+    }
+    &__input-container {
+        display: flex;
     }
     &__my-project {
         width: 286px;
@@ -1392,7 +1396,6 @@ ul li::before {
     }
     &__phone-mail {
         color: white;
-        padding-right: 448px;
         font-size: 12px;
         font-weight: 400;
         line-height: 150%;
@@ -1441,6 +1444,7 @@ ul li::before {
         min-height: 50px;
         text-align: center;
         position: relative;
+        display: flex;
         @media (max-width: 610px) {
             width: 100%;
          }
