@@ -14,9 +14,11 @@ module.exports = ({develop}) => ({
   mode: develop ? 'development' : 'production',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    //path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    clean: true,
+    path: path.resolve(__dirname, 'docs'), // Генерация файлов в папку "docs"
+    clean: true, // Удаляет старые файлы перед сборкой
+    //clean: true,
   },
   plugins: [
       new HtmlWebpackPlugin({
